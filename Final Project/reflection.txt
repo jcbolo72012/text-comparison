@@ -1,0 +1,9 @@
+I chose source text consisting of four articles from Breitbart news and four articles from the Atlantic, respectively popular mainstream Conservative and Neoliberal news outlets.
+I did so in order to see if the natural language processing model we created could detect the difference between these two. I tested an article from Mother Jones, 
+a popular news provider with a leftist bent, and to my suprise, the NLP model found more similarities between it and Breitbart than it and The Atlantic. I also tested the
+program on an article from Breitbart news which it accurately identified.
+
+I think this text classification program works modestly well because it was able to identify a Breitbart article accurately as a control.
+I could improve this model by giving greater weight to more indicative aspects of the model, as the weights are rather arbitrary right now.
+I could also include more attributes such as frequency of verbs vs nouns vs adjectives, although this would require external dictionaries. 
+I could also track the likelihood of certain phrases cropping up over and over using dictionaries and/or lists of sequential words, however this would require lots of memory
